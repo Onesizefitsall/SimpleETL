@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "Teste",
+    "TableName": "Tmp_Names",
+    "FileName": "teste_[0-9]{3}.csv",
+    "WatchFolder": "C:\\ETLFolder",
+    "BeforeScript": "truncate table Tmp_Names",
+    "AfterScript": "",
+    "FieldSeparator": ";",
+    "SkipLines": 1,
+    "ColumnsMap": [
+      {
+        "OriginColumn": 0,
+        "TargetColumn": "Name"
+      },
+      {
+        "OriginColumn": 1,
+        "TargetColumn": "Number"
+      }
+    ],
+    "ColumnsTransform": [
+      
+    ]
+
+
+  }
+]
